@@ -1,0 +1,154 @@
+html {
+	font-family: Arial;
+}
+body {
+	margin: auto;
+	padding: 0;
+}
+header {
+	top:0;
+	height: 15%;
+	width: 100%;	
+	background-image: url("imagenes/Fondo_header.jpg");
+	background-size: cover;
+	position: fixed;
+}
+nav {
+	top: 15%;
+	bottom: 12%;
+	height: 7%;
+	width: 100%;
+	background-color: #023859;
+	position: fixed;	
+}
+main {
+	position:absolute;
+	top: 22%;
+	width: 100%;
+	margin-bottom: 7%;
+	z-index: -1;
+}
+footer {	
+	position: fixed;
+	bottom: 0px;
+    width:100%;
+    height: 12%;
+    background-color:#047dc8;
+	border-top-color:1px solid rgba(255,255,255,.5);
+    text-align:center; 
+}
+
+#headleft {
+	float:left;
+	width: 20%;
+	height: 100%;	
+}
+#headleft img {
+	width: 50%;
+	height: 100%;		
+}
+#headcenter {
+	float: left;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+}
+#headright {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#flagone {
+	float: left;
+	width: 100%;
+}
+#flagtwo {
+	float: left;
+	width: 100%;
+}
+#imgesp {
+	display:block;
+	margin-left: auto;
+	padding: 0;
+	width: 35%;
+	height: 50%;
+}
+.icoIdiomas {
+	display: block;
+	float: right;
+	margin: auto;
+	padding: 5px;
+	width: 12%;
+	height: 12%;
+}
+
+nav ul{
+    background:#023859;
+    font-family:Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    position: static;
+	text-align: center;
+}
+nav ul li{
+    display:inline-block;
+	position: relative;
+}
+nav ul li:hover{
+	background:#047dc8 ;
+}
+nav ul li a{
+    color:#fff;
+    display:block;
+    text-decoration: none;
+	padding:20px;
+}
+nav ul li:hover .children{
+	display:block;
+}
+nav ul li ul{
+    display:none;
+    background:#011826;
+    position:absolute;
+	width:150%;
+}
+#largos{
+    width:400%;
+} 
+nav ul li .children li{
+	display:block;
+}
+
+
+
+section {
+	width: 95%;
+	margin:auto;
+	padding:0;
+}
+
+
+#footl {
+	float: left;
+	left:0;
+	width: 20%;
+	height: 100%;
+}
+#footr {
+	float: left;
+	margin: auto;
+	padding: 0;
+}
+img#logotipo
+{
+	width:25%;
+	height:100%;
+	left: 0;
+
+}
+.imgfooter
+{
+	width:2.5%;
+	height:2.5%;
+	text-align:center;
+}

@@ -1,0 +1,33 @@
+
+#menu
+{
+	margin-top:20px;
+	float:left;
+	margin-left:300px;
+	width:55%;
+} 
+
+.datos
+{
+	width:300px;
+	height:180px;
+	float:left;
+	margin-left:20px;
+}
+
+#registrate
+{
+	width:380px;
+	height:450px;
+	float:left;
+}
+
+iframe
+{
+	float:left;
+	width:600px; 
+	height:460px; 
+	border:0;
+	margin-bottom:20px;
+	margin-right:10px;
+}

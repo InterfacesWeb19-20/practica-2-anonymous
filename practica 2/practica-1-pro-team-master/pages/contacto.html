@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Academia DIW</title>
+	<meta name="author" content="Iván, Manuel, Eloy, Ignacio">
+	<meta name="copyright" content="Academia DIW">
+	<meta name="description" content="Proyecto Proyecto Web Scrum - Academia DIW">
+	<meta name="keywords" content="Ciclos, Formativos, Informática, FP, DAW">
+	<meta name="date" content="30/09/2019 - Fecha de creación de la página">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Links -->
+
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="icon" type="../image/png" sizes="32x32" href="images/logo.png">
+
+
+	<!-- Scripts -->
+
+	<script type="text/javascript" src="../js/jquery-3.4.1.slim.min.js"></script>
+	<script type="text/javascript" src="../js/header.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<img id="logotipo" src="../images/logo.png" alt="logotipo" width="80" height="70">
+    
+    <h1>ACADEMIA DIW</h1>
+
+	<nav>
+
+		<ul class="menu">
+				<li><a href="contacto.html">Contacto</a></li>
+				<li><a>Sobre Nosotros</a>
+					<ul>
+						<li><a href="historia.html">Historia</a></li>
+						<li><a href="Profesores.html">Profesores</a></li>
+					</ul>
+				</li>
+				<li><a href="">Cursos</a>
+					<ul>
+						<li><a href="">ESO</a>
+							<ul id="eso">
+								<li><a href="1eso.html">1 ESO</a></li>
+								<li><a href="2eso.html">2 ESO</a></li>
+								<li><a href="3eso.html">3 ESO</a></li>
+								<li><a href="4eso.html">4 ESO</a></li>
+							</ul>
+						</li>
+						<li><a href="">Bachillerato</a>
+							<ul id="bachiller">
+								<li><a href="1bach.html">1 Bachillerato</a></li>
+								<li><a href="2bach.html">2 Bachillerato</a></li>
+							</ul>
+						</li>
+						<li><a href="">Ciclos</a>
+							<ul id="ciclos">
+								<li><a href="acceso-medio.html">Pruebas Acceso Grado Medio</a></li>
+								<li><a href="acceso-superior.html">Pruebas Acceso Grado Superior</a></li>
+								<li><a href="administracion.html">Administración</a></li>
+								<li><a href="informatica.html">Informática</a></li>
+							</ul>
+						</li>
+						<li><a href="universidad.html">Universidad</a></li>
+					</ul>
+				</li>
+				<li><a href="../index.html">Inicio</a></li>
+			</ul>
+
+	</nav>
+
+	<a href="#"><img src="../images/spain.png" width="23" height="23"></a><a href="#"><img id="flag-england" src="../images/england.png" width="23" height="23"></a>
+	
+</header>
+
+<section>
+<main>					
+	<h1 class="contac">Contacto</h1>
+	<p class="descr">Si desea información para alguno de los cursos, rellene el formulario y formule su duda.<br> Si lo desea también podemos ponernos en contacto con usted por teléfono.</p>
+	<form>	
+		<div class="formizq">				
+			<fieldset>
+				<legend>Datos Personales:</legend>
+				<p>Nombre:
+				<input required type="text" name="nombre"></p>
+				<p>Apellidos:
+				<input type="text" name="apellidos"></p>
+				<p>E-mail de contacto:
+				<input required type="email" name="correo"></p>
+				<p>¿Estudia ya en la academia?: &nbsp;
+				<input type="radio" name="estudiante" value="Si">Sí &nbsp;
+				<input type="radio" name="estudiante" value="No">No</p>
+				<p>Selecciona rango de edad:
+				<select name="edad" id="edad">
+					<option value="<18"> menor de 18 años</option>
+					<option value="18-25" selected>entre 18 y 25 años</option>
+					<option value="25-35">entre 25 y 35 años</option>
+					<option value="35-50">entre 35 y 50 años</option>
+					<option value=">50">mayor de 50 años</option>
+				</select></p>
+				<p>Teléfono:
+				<input type="text" name="telefono"></p>
+			</fieldset>
+		</div>
+		<div class="formder">
+			<fieldset>
+				<legend>Datos de la Empresa:</legend>
+				<p>Teléfono: 555-555-555</p>
+				<p>E-mail: blabla@gmail.com</p>
+				<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4674.071657064159!2d-0.14191178103518207!3d38.56675341502445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd620355242e2e7f%3A0x522f6e8a3166664a!2sTerra%20Natura%20Benidorm!5e0!3m2!1ses!2ses!4v1569936728487!5m2!1ses!2ses"
+				width="400" height="250"></iframe></p>		
+			</fieldset>
+		</div>
+		<div class="formizq">
+			<fieldset>
+				<legend>Escriba su duda o sugerencia:</legend>
+				<textarea required name="dudas" rows="13" cols="92" style="resize:none; border:none; width:80%; outline:none;"  ></textarea>
+			</fieldset>	
+			<p id="boton" style="text-align:center"><input type="submit" value="Enviar">&nbsp &nbsp <input type="reset" value="Borrar"></p>
+		</div>
+		
+		<div class="formder">		
+			<fieldset>
+				<legend>Horarios:</legend>			
+				<p>Lunes-Viernes: 9:00 - 14:00 y 17:00 a 22:00</p>
+				<p>Sábados: 9:00 - 15:00 (Tardes Cerrado)</p>
+				<p>Domingos: Cerrado</p>
+			</fieldset>
+			<br><br><br><br>
+		</div>
+	</form>
+
+</main>	
+</section>
+
+<footer>
+
+	<div id="footer_left">
+
+		<h2>Mapa del Sitio</h2> 
+
+		<article class="footer_text"><a href="../index.html">Inicio</a></article>
+            
+		<hr>
+
+        <article class="footer_text"><a href="Profesores.html">Profesores</a></article>
+        
+        <hr>
+
+        <article class="footer_text"><a href="historia.html">Sobre Nosotros</a></article>
+        
+        <hr>
+
+        <article class="footer_text"><a href="contacto.html">Contacto</a></article>
+
+	</div>
+
+	<div id="footer_middle">
+
+		<h2>Dónde estamos</h2>
+
+		<article class="footer_text"><img src="../images/localizacion.png" class="icons" with="15" height="15">C/ Panamá 22 03008 Alicante</article>
+            
+
+        <article class="footer_text"><img src="../images/tlfn.png" class="icons" with="15" height="15">965 645 809</article>
+        
+
+        <article class="footer_text"><img src="../images/email.png" id="email_ico" with="10" height="10">info@academiadiw.es</article>
+        
+
+        <article class="footer_text"><img src="../images/horario.png" class="icons" with="15" height="15">L - V de 9:00 a 13:00 y de 16:00 a 21:00</article>
+
+	</div>
+
+	<div id="footer_right">
+
+		<h2>Síguenos</h2>
+
+		<article class="footer_text"><img onmouseout="this.src='../images/Twitter.png';" onmouseover="this.src='../images/Twitter_hover.png';" src="../images/Twitter.png" alt="Twitter" width="20" height="20">
+        <a href="https://twitter.com">&nbsp;Twitter</a></article>
+        <br>
+        <article class="footer_text"><img onmouseout="this.src='../images/Facebook.png';" onmouseover="this.src='../images/Facebook_hover.png';" src="../images/Facebook.png" alt="Facebook" width="20" height="20">
+        <a href="https://www.facebook.com">&nbsp;Facebook</a></article>
+        <br>
+        <article class="footer_text"><img onmouseout="this.src='../images/Instagram.png';" onmouseover="this.src='../images/Instagram_hover.png';" src="../images/Instagram.png" alt="Instagram" width="20" height="20">
+        <a href="https://www.instagram.com">&nbsp;Instagram</a></article>
+        <br>
+        <article class="footer_text"><img onmouseout="this.src='../images/Google.png';" onmouseover="this.src='../images/Google_hover.png';" src="../images/Google.png" alt="Google" width="20" height="20">
+        <a href="https://plus.google.com">&nbsp;Google+</a></article>
+
+	</div>
+
+
+</footer>
+
+<div id="copyright">
+
+	<p>Academia DIW © Copyright 2019 - Todos los derechos reservados</p>
+			
+</div>
+
+</body>
+</html>

@@ -1,0 +1,602 @@
+﻿/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* INICIO CSS DE IVÁN - HEADER & FOOTER*/
+
+* {
+
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Fonts CSS */
+
+@font-face {
+font-family: openSerif;
+src:url(../fonts/openSerif.ttf);
+}
+
+/* Header CSS */
+
+#logotipo{
+	
+	margin-top: 0.4em;
+	margin-left: 1.2em;
+	margin-bottom: 1em;
+	float:left;
+}
+
+header {
+
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	width: 100%;
+	height: 5.5em;
+	align-items: middle;
+}
+
+header h1 {
+
+	font-family: openSerif , Helvetica, sans-serif;
+	font-size: 32px;
+	text-align: left;
+	padding-top: 0.8em;
+	float: left;
+	padding-left: 0.6em;
+	width: 30%;
+}
+
+.header2 {
+	
+	background-color: #fff;
+	opacity: 0.9;
+	width: 100%;
+	height: 4em;
+	position: fixed;
+	z-index: 99;
+	box-shadow: 0 0 10px #444;
+
+}
+
+#flag-england{
+
+	padding-right: 15px;
+}
+
+/* Nav CSS */
+
+nav {
+
+	width: 75%;
+	font-family: openSerif , Helvetica, sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+ul, ol {
+
+	list-style: none;
+}
+			
+.menu > li {
+	float:right;
+}
+
+.menu li a {
+	background-color:#fff;
+	color:#000;
+	text-decoration:none;
+	padding:10px 90px 10px 35px;
+	display:block;
+}
+
+.menu2 li a {
+	background-color:#fff;
+	color:#000;
+	text-decoration:none;
+	padding:10px 90px 10px 35px;
+	display:block;
+}
+
+.menu li a:hover {
+	color: #0087E0;
+}
+
+.menu li ul li a:hover {
+
+	background-color:#F7F7F7;
+}
+
+.menu li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	border-left: 3px solid #0087E0;
+	box-shadow: 3px 0 4px #444;
+}
+
+.menu li:hover > ul {
+	display:block;
+}
+
+.menu li ul li {
+	position: relative;
+}
+
+.menu li ul li #eso{
+	right:-178px;
+	top:0px;
+}
+
+.menu li ul li #bachiller{
+	right:-247px;
+	top:0px;
+}
+
+.menu li ul li #ciclos{
+	right:-400px;
+	top:0px;
+}
+
+/* Footer CSS */
+
+footer{
+	
+	display: flex;
+	justify-content: space-around;
+	background-color: #454545;
+	width: 100%;
+	height: 18em;
+	font-family: openSerif, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff;
+}
+
+footer h2 {
+
+	padding-bottom: 1.3em;
+}
+
+#footer_left{
+
+	padding-top: 2em;
+}
+
+#footer_middle{
+
+	padding-top: 2em;
+}
+
+#footer_middle hr{
+
+	color:rgba(255, 255, 255, 0.25); 
+	border: solid 0.5px; 
+	margin-top: 0.7em; 
+	margin-bottom: 0.6em;
+}
+
+#footer_middle article .icons {
+
+	padding-right: 0.5em;
+	vertical-align: top;
+}
+
+#footer_middle .footer_text {
+
+	vertical-align: middle;
+	padding-bottom: 0.8em;
+
+}
+
+#email_ico {
+
+	padding-right: 0.5em;
+}
+
+.footer_text a{
+	
+	color: #FFF;
+	text-decoration: none;
+	font-family: openSerif, Helvetica, sans-serif;
+}
+
+.footer_text a:hover{
+	
+	color: #0087E0;
+	text-decoration: none;
+}
+
+hr{
+
+	color:rgba(255, 255, 255, 0.25); 
+	border: solid 0.5px; 
+	margin-top: 0.7em; 
+	margin-bottom: 0.6em;
+}
+
+#footer_right{
+
+	padding-top: 2em;
+}
+
+#footer_right .footer_text img {
+
+	margin-bottom: -6px;
+}
+
+
+/* Copyright CSS */
+
+#copyright{
+
+	width: 100%;
+	background-color: #343434;
+	margin: 0;
+	box-shadow: 0 0 4px #000;
+}
+
+#copyright p{
+
+	text-align: center;
+	color: #FFF;
+	font-family: openSerif, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 3em;
+	padding-top: 1.8em;
+}
+
+.espacioHeader {
+
+	padding-top: 5.5em;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* FIN CSS DE IVÁN - HEADER & FOOTER*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* INICIO CSS DE IVÁN - CURSOS*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#container-cursos{
+
+	width: 80%;
+	padding-left: 10%;
+}
+
+#container-cursos h1{
+
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+
+#container-cursos #cursos-introduccion p{
+
+	padding-bottom: 1.5em;
+}
+
+#container-cursos #cursos-left p{
+
+	padding-bottom: 0.5em;
+}
+
+#container-cursos #cursos-introduccion img{
+
+	margin-bottom: 1.5em;
+	border-radius: 15px;
+}
+
+#cursos-left{
+
+	float: left;
+	padding-bottom: 1.5em;
+	margin-left: 2.5em;
+}
+
+#cursos-right{
+
+	float: right;
+	width: 100px;
+	height: 100px;
+}
+
+#cursos-right{
+
+	padding-right: 20%;
+	padding-top: 5%;
+}
+
+#cursos-right img{
+
+	border-radius: 50%;
+	border:3px solid #0087E0;
+	-webkit-transition: border 0.5s ease-out;
+    -moz-transition: border 0.5s ease-out;
+    -o-transition: border 0.5s ease-out;
+}
+
+#cursos-right img:hover {
+
+	-webkit-transition: border 0.5s ease-in;
+    -moz-transition: border 0.5s ease-in;
+    -o-transition: border 0.5s ease-in;
+	border-radius: 50%;
+	border:8px solid #0087E0;
+}
+
+#cursos-right p {
+
+	position: absolute;
+	margin-left: -1.4%;
+}
+
+#cursos-right p a{
+
+	color:#000;
+	text-decoration:none;
+}
+
+#cursos-right p a:hover{
+
+	color:#0087E0;
+}
+
+#cursos-right p a:visited{
+
+	color:#000;
+}
+
+#cursos-right p a:visited:hover{
+
+	color:#0087E0;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* FIN CSS DE IVÁN - CURSOS*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* COMIENZO CSS DE ELOY */
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+fieldset
+{
+	border-color: #0087E0;
+	border-radius: 50px;
+}
+.formizq
+{
+	float:left;
+	width:35%;
+	margin-left: 10%;
+	margin-top: 5.5%;
+	text-align: left;
+	text-align: center;
+}
+
+.formizq p
+{
+	padding: 3%;
+}	
+.formder 
+{
+	float:right;
+	width: 40%;
+	margin-right: 12%;
+	margin-top: 5%;
+	width: 30%;
+}
+
+.formder p
+{
+	padding: 3%;
+}	
+
+#boton input
+{
+	width:140px;
+	height:50px;
+	border-radius: 15px;
+	border: 2px solid #0087E0;
+	background: white;
+}
+
+#boton input:hover
+{
+	background: #0087E0;
+	color: white;
+}
+
+.contac
+{	margin-top: 15px;
+	text-align: center;
+	
+}
+
+p.descr
+{
+	text-align: justify-content;
+	margin-left:27%;
+}
+
+.formder
+{
+	text-align:center;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* FIN CSS DE ELOY */
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* COMIENZO CSS DE NACHO*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.galeria img {		
+	width: 12.5em;
+	border-radius: 50%;
+	height: 12.5em;
+	border:3px solid #0087E0;
+	-webkit-transition: border 0.6s ease-out;
+    -moz-transition: border 0.6s ease-out;
+    -o-transition: border 0.6s ease-out;
+}
+
+.galeria img:hover {		
+	width: 12.5em;
+	border-radius: 50%;
+	height: 12.5em;
+	border:8px solid #0087E0;
+	-webkit-transition: border 0.6s ease-in;
+    -moz-transition: border 0.6s ease-in;
+    -o-transition: border 0.6s ease-in;
+}
+.fila{			
+	display: inline-block;	
+	margin: 4em 2em;		
+}
+.salto{
+	clear:both;
+}
+.historia {		
+	padding: 5% 20%;				
+	
+}	
+.htitulo {
+	text-align: center;
+}
+.htxt p {	
+	margin-bottom: 50px;
+}
+.hsubti {
+	font-size:22px;
+	line-height : 75px;
+}
+
+.gprofesores {
+	background-color: #f7f7f7
+}
+.galeria {
+	text-align:center;
+	
+}
+.historia a {
+	color:#0087E0;
+	text-decoration:none;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* FIN CSS DE NACHO*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* COMIENZO CSS DE MANU*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+.Bienvenida 
+{	
+	font-size:22px;
+	text-align: center;
+	padding-bottom: 2em;
+	width: 60%;
+	padding-left: 20%;
+	
+}
+body
+{
+	font-family: openSerif, Helvetica, sans-serif;
+	font-size: 22px;
+}
+#novedades
+{
+	padding-top: 1em;
+	text-align: center;
+	font-size: 28px;
+	
+}
+.anuncios
+{
+	background-color: #f7f7f7;
+	
+}
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+	width: 80%;
+	padding-left: 10%;
+	
+}
+.flex-container div.flex
+{
+    flex: auto;
+    width: 25em;
+    margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 1em;
+	padding-right:1em;
+	text-align:center;
+	font-size:19px;
+		
+}
+
+.anuncios .flex-container .flex a:link
+{
+	color:#0087E0;
+	text-decoration: none;
+}
+.anuncios .flex-container .flex a:hover
+{
+	color:#0087E0;
+}
+.anuncios .flex-container .flex a:visited
+{
+	color:#000;
+}
+.anuncios .flex-container .flex a:visited:hover
+{
+	color:#0087E0;
+}
+.flex-container div.flex img
+{ 
+	border-radius: 2em;
+    width: 22em; 
+    height: 14em;
+    -webkit-transition: width 0.6s ease-out;
+    -moz-transition: width 0.6s ease-out;
+    -o-transition: width 0.6s ease-out;
+}
+.flex-container div.flex img:hover
+{ 
+	border-radius: 2em;
+    width: 23.5em;
+    -webkit-transition: width 0.6s ease-in;
+    -moz-transition: width 0.6s ease-in;
+    -o-transition: width 0.6s ease-in;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* FIN CSS DE MANU*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

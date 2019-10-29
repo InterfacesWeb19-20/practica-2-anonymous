@@ -1,0 +1,53 @@
+@charset "utf-8";
+body{
+	width:80%; 
+	margin-left:10%; 
+	margin-right:10%;
+	font-family: 'Roboto', sans-serif;
+	align:center;
+	line-height:2.5em;
+
+}
+submenu:hover{
+    background:#ddd;
+    cursor:pointer;
+}
+.pares{
+	background-color:#B0B0B0;
+	text-align:center; 
+	margin:1px; 
+	clear:both; 
+}
+.impares{
+	clear:both;
+	background-color:#7C7C7C;
+	
+}
+h2{
+	text-align:center;
+}
+.izquierda{
+	width:45%; 
+	float:left;
+	margin-right:20px;
+}
+.derecha{
+	width:45%; 
+	float:left;
+	margin-right:20px;
+
+}
+.sesenta{
+	margin-left:5px;
+	margin-top:20px;
+	width:55%; 
+	float:left;
+}
+img{
+	margin-top:20px;
+	border-radius:5%;
+	}
+	
+
+/* CSS Document */
+

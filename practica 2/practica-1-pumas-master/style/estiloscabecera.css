@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+#contenedor{
+    width:100%;
+    height:8em;
+    background:#ccc;
+    line-height:8em;
+}
+#divimagen{
+    width:8%;
+    height:100%;
+    float:left;
+    border-right:3px solid #38b6ff;
+}
+#imagenhd{
+    width:8em;
+}
+#titulo{
+    width:83%;
+    height:3.6em;
+    float:left;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    color:#38b6ff;
+    font-size:35px;
+    line-height:3.6em;
+    
+}
+#menu{
+    width:100%;
+    height:3em;
+    background:grey;
+}
+#opcionmenu{
+    width:20%;
+    height:3em;
+    background:grey;
+    float:left;
+    line-height:3em;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    border-right:1px solid #ccc;
+}
+#opcionmenu:hover{
+    background:#ddd;
+    cursor:pointer;
+}
+#ultimop:hover{
+    background:#ddd;
+    cursor:pointer;
+}
+a{
+	text-decoration:none;
+    color:#38b6ff;
+}
