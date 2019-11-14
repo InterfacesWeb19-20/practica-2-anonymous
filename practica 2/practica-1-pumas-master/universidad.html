@@ -1,43 +1,45 @@
 <!DOCTYPE html>
-<html style = "height:100%;">
+<html style ="height:100%">
     <head>
-        <link rel="stylesheet" type="text/css" href="style/estilo.css" />
-       	<link rel="stylesheet" type="text/css" href="style/estiloscabecera.css" />
-
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="style/estiloscabecera.css"/>
+            <link rel="stylesheet" type="text/css" href="style/estilo.css"/>
+            <title>ACADEMIA D.I.W</title>
     </head>
-    <header>
-	            <div style="position: fixed; right: 0%; margin-right: 1%;">
-                <img src="./images/españa.jfif" width="60px" title="Español">
-                <img src="./images/usa.png" width="60px" title="English">
-            </div>
-	            <div style="position: fixed; right: 0%; margin-right: 1%;">
-                <img src="./images/españa.jfif" width="60px" title="Español">
-                <img src="./images/usa.png" width="60px" title="English">
+    
+
+<body>
+        <header>
+                <div class="PrimerDIV">
+                <img class="banderas" src="./images/españa.jfif"  title="Español"  alt="español"/>
+                <img class="banderas" src="./images/usa.png"  title="English"  alt="ingles"/>
             </div>
         <div id = "contenedor">
-            <div style="padding-right:1%; "id = "divimagen">
-                <img id = "imagenhd" src = "images/casaa2.png"/>
+            <div style="padding-right:1%; " id = "divimagen">
+                <img id = "imagenhd" src = "images/casaa2.png"  alt="casa"/>
             </div>
             
             <div id = "titulo">
-                ACADEMIA D.I.W
+                <h1>ACADEMIA D.I.W</h1>
             </div>
-            <div style = "width:7%;FLOAT:LEFT;height:8em;margin-left:-5%;">
-                    <img style = "width:8em;margin-top:1.5em;" src = "images/iso.png"/>
+            <div class="segundoDIV">
+                    <img style = "width:8em;margin-top:1.5em;" src = "images/iso.png"  alt="iso"/>
             </div>
-           
+        
         </div>
     </header>
-    <div id = "menu">
-            <a href = "./index.html"><div id = "opcionmenu">INICIO</div></a>
-            <a href = "./ESO.html"><div id = "opcionmenu">ESO</div></a>
-            <a href = "./bachiller.html"><div id = "opcionmenu">BACHILLER</div></a>
-            <a href = "./ciclos.html"><div id = "opcionmenu">CURSOS FP</div></a>
-            <a href = "./universidad.html"><p id = "ultimop" style="text-align:center;line-height:3em;">UNIVERSIDAD</p></a>
-    </div>
-    <body style = "height:100%;">
+    <nav>
+            <div id = "menu">
+                    <div class = "opcionmenu"><a href = "./index.html">INICIO</a></div>
+                    <div class = "opcionmenu"><a href = "./ESO.html">ESO</a></div>
+                    <div class = "opcionmenu"><a href = "./bachiller.html">BACHILLER</a></div>
+                    <div class = "opcionmenu"><a href = "./ciclos.html">CURSOS FP</a></div>
+                    <p id = "ultimop" style="text-align:center;line-height:3em;"><a href = "./universidad.html">UNIVERSIDAD</a></p>
+        
+            </div>
+    </nav>
         <section style = "width:100%;height:120%;background: whitesmoke;padding-bottom:7em;font-size:1vw;padding-bottom:20%;">
-            <p>
+            
                <div style = "width:100%;height:5%;border-bottom:2px solid #ccc;background:grey;margin-top:1%;"><h2> OBJETIVO</h2></div>
 
                 Durante los años de universidad nuestros alumnos se enfrentan a las diferentes materias con todas la opciones de éxito gracias a un apoyo personalizado y continuo.<br>          
@@ -50,10 +52,10 @@
                   Ejercicios prácticos para asegurar la asimilación de lo impartido.<br>
                   Evaluación continua de progresos.<br>
                 Gracias al apoyo del profesor, el alumno adquiere un método claro y riguroso de estudio.<br>
-            </p>
+            
         
        
-        <p>
+        
             <div style = "width:100%;height:5%;border-bottom:2px solid #ccc;background:grey;margin-top:1%;"><h2>SERVICIOS</h2></div>
             Desde las oficinas de EnClase nuestros asesores pedagógicos analizan cada caso junto al alumno, lo que les permite definir, en coordinación continua con los profesores, un plan de estudios general que permita alcanzar los objetivos propuestos en base a sus necesidades.<br>           
             Las bases de algunos de los planes de estudio propuestos son:<br>            
@@ -63,36 +65,34 @@
             Para aquellos alumno que lleva bien sus asignaturas pero quiere hacer un “esfuerzo final” con el objetivo de potenciar sus conocimientos y asegurar el éxito en los exámenes. En estos casos, EnClase le recomienda la ayuda de un experto un repaso completo de la asignatura y poner a prueba su nivel frente a los exámenes.<br>
             Ayuda específica con asignaturas: <br>
             Para alumnos que tienen alguna asignatura pendiente de cursos anteriores, con la cual tiene verdaderos problemas a pesar de estudiarla una y otra vez, les será muy útil la ayuda de profesor experto que les proporcione un enfoque desde otro perspectiva, permitiéndole así evitar errores anteriores y superar los exámenes.<br>
-        </p>
+        
     
     </section>
     <footer>
-
-            <section style = "margin:0;padding:0;width:100%;height:30%;background-image:url('images/modal.png')">
+        <section class="seccion2">
+        
                 <div style = "width:80%;height:30%;margin:0px auto;display:flex;align-items:center;">
-                    <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">Sobre Nosotros</a>
-                    <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">Cursos</a>
-                    <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">ESO</a> 
-                    <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">Universidad</a>   
-                </div>
-                <div style = "width:80%;height:20%;margin:0px auto;font-style: italic;text-align:center;font-size:18px;color:white;">
-                    Puedes encontrarnos aqui, también puedes ponerte en contacto con nosotros por correo electrónico o redes sociales       
-                </div>
-                <div style = "width:45%;height:48%;margin:0px auto;display:flex;align-items:center;">
-                    <div style = "width:20%;background:blue;"></div>
-                    
-                    <div style = "background-size:25px 25px;background-size:50% 100%;width:50%;height:100%;float:left;display:flex;align-items:center;">
-                    <img style = "width:25%;"src = "images/facebook2.png"/>
-                    <img style = "width:25%;"src = "images/twitter2.png"/>
-                    <img style = "width:25%;"src = "images/instagram2.png"/>
-                    <img style = "width:25%;"src = "images/linkedin2.png"/>
+                        <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">Sobre Nosotros</a>
+                        <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">Cursos</a>
+                        <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">ESO</a> 
+                        <a style = "color:white;text-decoration:underline;margin:0px auto;font-size:21px;" href = "">Universidad</a>   
                     </div>
-                </div>
-                
-                
-            
-            </section>
-    </footer>
+                    <div style = "width:80%;height:20%;margin:0px auto;font-style: italic;text-align:center;font-size:18px;color:white;">
+                        Puedes encontrarnos aqui, también puedes ponerte en contacto con nosotros por correo electrónico o redes sociales       
+                    </div>
+                    <div style = "width:45%;height:48%;margin:0px auto;display:flex;align-items:center;">
+                        <div style = "width:20%;background:blue;"></div>
+                        
+                        <div style = "background-size:25px 25px;background-size:50% 100%;width:50%;height:100%;float:left;display:flex;align-items:center;">
+                        <img style = "width:25%;" src = "images/facebook2.png"  alt="facebook"/>
+                        <img style = "width:25%;" src = "images/twitter2.png"  alt="twitter"/>
+                        <img style = "width:25%;" src = "images/instagram2.png"  alt="instagram"/>
+                        <img style = "width:25%;" src = "images/linkedin2.png"  alt="linkedin"/>
+                        </div>
+                    </div>
+
+    </section>
+</footer>
     
     </body>
 </html>
